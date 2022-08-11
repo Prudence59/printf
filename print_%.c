@@ -2,11 +2,11 @@
 #include <unistd.h>
 
 /**
- * print_% - A function that prints a string
- * @%: string to print
+ * print_p - A function that prints a string
+ * @p: string to print
  * Return: i
  */
-int print_%(va_list %)
+int print_p(va_list %)
 {
 	char *str = va_arg(%, char *);
 	int i = 0;
